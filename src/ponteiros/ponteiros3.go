@@ -7,22 +7,22 @@ especialmente vantajoso quando o objeto é grande.
 */
 func Main() {
   var aluno models.Aluno
-	aluno.Nome = "Arthur"
-	aluno = MudaNome(aluno)
+  aluno.Nome = "Arthur"
+  aluno = MudaNome(aluno)
 }
 
 func MudaNome(aluno models.Aluno) models.Aluno {
-	aluno.Nome = "nome alterado"
-	return aluno
+  aluno.Nome = "nome alterado"
+  return aluno
 }
 
 ///////////////
 func Main2() {
-	var aluno models.Aluno
-	aluno.Nome = "Arthur"
-	MudaNome2(&aluno)
+  var aluno models.Aluno
+  aluno.Nome = "Arthur"
+  MudaNome2(&aluno)
 }
 
 func MudaNome2(aluno *models.Aluno) {
-	aluno.Nome = "nome alterado"
+  aluno.Nome = "nome alterado"
 }
