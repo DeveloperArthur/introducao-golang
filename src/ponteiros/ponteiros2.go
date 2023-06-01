@@ -14,6 +14,7 @@ func (c *Carro) andou() {
 	fmt.Println(c.Name, "andou")
 }
 
+//c *Carro representa o ponteiro do objeto que chamou o método
 func (c *Carro) alteraValor() {
 	c.valores[0] = 500
 }
