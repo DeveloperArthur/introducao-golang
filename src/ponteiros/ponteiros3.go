@@ -17,6 +17,7 @@ func MudaNome(aluno models.Aluno) models.Aluno {
 }
 
 ///////////////
+
 func Main2() {
   var aluno models.Aluno
   aluno.Nome = "Arthur"
