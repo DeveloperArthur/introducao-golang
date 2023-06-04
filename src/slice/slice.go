@@ -27,6 +27,8 @@ func main(){
 	fmt.Println(numeros)
 	recebeSlice(slice)
 	fmt.Println(numeros)
+	
+	//outro exemplo: https://github.com/DeveloperArthur/golang-first-api-rest/blob/main/desafio/desafio.go
 }
 
 //sintaxe para receber um slice
